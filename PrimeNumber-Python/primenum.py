@@ -20,6 +20,8 @@ def is_num_valid(num):
 def prime_or_not(x):
     prime =""
     num = int(x)
+    flag = False
+    '''
     count = 2
     while(num % count !=0):
         if count == num:
@@ -28,5 +30,14 @@ def prime_or_not(x):
         if count:
             prime = str(num) + " is not a prime number"
             break
-        count += 1
+        count += 1'''
+    if num > 1:
+        for i in range(2, num):
+            if (num % i) ==0:
+                flag = True
+                break
+    if flag:
+        prime=str(num)+" is not a prime number"
+    else:
+        prime=str(num)+" is a prime number"
     return prime
