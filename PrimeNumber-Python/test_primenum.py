@@ -2,7 +2,7 @@ import unittest
 import primenum
 
 class MyTestCase(unittest.TestCase):
-    '''def test_num_valid_true(self):
+    def test_num_valid_true(self):
         self.assertTrue(primenum.is_num_valid("9"))
 
     def test_num_empty(self):
@@ -15,7 +15,7 @@ class MyTestCase(unittest.TestCase):
         self.assertFalse(primenum.is_num_valid("1"))    
     
     def test_num_valid_false(self):
-        self.assertFalse(primenum.is_num_valid("e"))'''
+        self.assertFalse(primenum.is_num_valid("e"))
 
     def test_num_is_prime(self):
         self.assertEqual("23 is a prime number", primenum.prime_or_not("23"))
