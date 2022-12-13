@@ -1,7 +1,14 @@
+"""
+User will be asked to enter a number
+"""
 def get_number():
     num = input("Enter a number: ")
     return num
 
+
+"""
+The number input will be checked if it's valid or not
+"""
 def is_num_valid(num):
     if num =="":
         print("Number input is empty")
@@ -17,6 +24,11 @@ def is_num_valid(num):
         return False
     return True
 
+
+"""
+Number input as param will be used to
+determine whether the number is a prime or not
+"""
 def prime_or_not(x):
     prime =""
     num = int(x)
@@ -41,3 +53,15 @@ def prime_or_not(x):
     else:
         prime=str(num)+" is a prime number"
     return prime
+
+"""Input will be called in this function and results will be displayed"""
+def display_results():
+    num = get_number()
+    while is_num_valid(num) == False:
+        num = get_number()
+    prime = prime_or_not(num)
+    print(prime)
+
+
+if __name__=="__main__":
+    display_results()
