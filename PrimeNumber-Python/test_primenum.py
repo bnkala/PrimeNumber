@@ -1,21 +1,36 @@
 import unittest
 import primenum
+import io
+import sys
+
 
 class MyTestCase(unittest.TestCase):
     def test_num_valid_true(self):
         self.assertTrue(primenum.is_num_valid("9"))
 
     def test_num_empty(self):
+        suppress_text = io.StringIO()
+        sys.stdout = suppress_text
         self.assertFalse(primenum.is_num_valid(""))
+        sys.stdout = sys.__stdout__
 
     def test_num_zero(self):
+        suppress_text = io.StringIO()
+        sys.stdout = suppress_text
         self.assertFalse(primenum.is_num_valid("0"))
+        sys.stdout = sys.__stdout__
 
     def test_num_one(self):
-        self.assertFalse(primenum.is_num_valid("1"))    
+        suppress_text = io.StringIO()
+        sys.stdout = suppress_text
+        self.assertFalse(primenum.is_num_valid("1"))
+        sys.stdout = sys.__stdout__    
     
     def test_num_valid_false(self):
+        suppress_text = io.StringIO()
+        sys.stdout = suppress_text
         self.assertFalse(primenum.is_num_valid("e"))
+        sys.stdout = sys.__stdout__
 
     def test_num_is_prime(self):
         self.assertEqual("23 is a prime number", primenum.prime_or_not("23"))
