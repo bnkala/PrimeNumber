@@ -1,0 +1,17 @@
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\bin\Debug\net6.0-windows\PrimeNumber.exe
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\bin\Debug\net6.0-windows\PrimeNumber.deps.json
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\bin\Debug\net6.0-windows\PrimeNumber.runtimeconfig.json
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\bin\Debug\net6.0-windows\PrimeNumber.dll
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\bin\Debug\net6.0-windows\PrimeNumber.pdb
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.csproj.AssemblyReference.cache
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.PrimeNumber.resources
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.csproj.GenerateResource.cache
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.AssemblyInfoInputs.cache
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.AssemblyInfo.cs
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.csproj.CoreCompileInputs.cache
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.dll
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\refint\PrimeNumber.dll
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.pdb
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\PrimeNumber.genruntimeconfig.cache
+C:\Users\STUDENT\Desktop\Personal Projects\bnkala\PrimeNumber\PrimeNumber-CSWindows\PrimeNumber\obj\Debug\net6.0-windows\ref\PrimeNumber.dll

@@ -33,6 +33,7 @@ def prime_or_not(x):
     prime =""
     num = int(x)
     flag = False
+    count = 0
     '''
     count = 2
     while(num % count !=0):
@@ -47,9 +48,13 @@ def prime_or_not(x):
         for i in range(2, num):
             if (num % i) ==0:
                 flag = True
+                count = i
                 break
+
+
+
     if flag:
-        prime=str(num)+" is not a prime number"
+        prime=str(num)+" is not a prime number as it is divisible by "+str(count)
     else:
         prime=str(num)+" is a prime number"
     return prime

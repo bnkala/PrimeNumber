@@ -50,11 +50,28 @@ namespace PrimeNumberTest
         }
 
         [TestMethod]
+        public void TestNumberPrimeFalse()
+
+        {
+            PrimeNumber prime = new PrimeNumber();
+            string result = prime.PrimeOrNot("2021");
+            Assert.AreNotEqual("2021 is a prime number", result);
+        }
+        [TestMethod]
         public void TestNumberNotPrime()
         {
             PrimeNumber prime = new PrimeNumber();
             string result = prime.PrimeOrNot("57");
-            Assert.AreEqual("57 is not a prime number", result);
+            Assert.AreEqual("57 is not a prime number as it is divisible by 3", result);
         }
+
+        [TestMethod]
+        public void TestNumberNotPrimeFalse()
+        {
+            PrimeNumber prime = new PrimeNumber();
+            string result = prime.PrimeOrNot("2011");
+            Assert.AreNotEqual("2011 is not a prime number", result);
+        }
+
     }
 }

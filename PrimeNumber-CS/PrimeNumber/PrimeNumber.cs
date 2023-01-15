@@ -54,7 +54,7 @@ namespace PrimeNumberNS
 
             } else
             {
-                prime = num + " is not a prime number";
+                prime = num + " is not a prime number as it is divisible by "+count;
             }
 
             return prime;

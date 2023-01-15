@@ -39,7 +39,7 @@ class MyTestCase(unittest.TestCase):
         self.assertNotEqual("39 is a prime number", primenum.prime_or_not("39"))
 
     def test_num_is_not_prime(self):
-        self.assertEqual("15 is not a prime number", primenum.prime_or_not("15"))
+        self.assertEqual("15 is not a prime number as it is divisible by 3", primenum.prime_or_not("15"))
 
     def test_num_is_not_prime_false(self):
         self.assertNotEqual("19 is not a prime number", primenum.prime_or_not("19"))
